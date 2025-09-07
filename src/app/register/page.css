@@ -54,10 +54,12 @@
   text-align: center;
   font-size: 1.2rem;
 
+
 }
 #loginCardInputs > input{
   background-color: #FFFFFF;
-  height: 35x;
+  
+  height: 35px;
   border-radius: 3px;
   border: #FFFFFF solid 1px;
 }
@@ -71,7 +73,7 @@
 #loginCardInputs > #options > #buttons{
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 5px;
 }
 #loginCardInputs > #options > #buttons>*{
@@ -97,7 +99,7 @@
   justify-content: center;
 }
 #loginCardInputs > #options > #register > a{
-  height: 40px;
+  height: 50px;
   color: #ffffff;
   text-decoration: underline;
 }
